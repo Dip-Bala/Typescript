@@ -21,25 +21,25 @@ type Employee = {
   };
   
 
-type User = {
-    name: string,
-    age: number
-}
-type Admin = {
-    name: string,
-    permissions:  string
-}
+// type User = {
+//     name: string,
+//     age: number
+// }
+// type Admin = {
+//     name: string,
+//     permissions:  string
+// }
 
-type Client = User | Admin;
+// type Client = User | Admin;
 
-const client : Client = {
-    name : "Diya",
-    age: 22,
-    permissions : "allow"
-}
+// const client : Client = {
+//     name : "Diya",
+//     age: 22,
+//     permissions : "allow"
+// }
 
 
-console.log(client)
+// console.log(client)
 
 
 // Union and intersection is confusing
